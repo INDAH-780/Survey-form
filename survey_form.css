@@ -1,0 +1,59 @@
+body{
+    background-image: url("survey.jpg");
+    background-repeat: no-repeat;
+    font-family: sans serif;
+    font-size:18px;
+    color: #fff;
+  }
+  p{
+    font-style:italic;
+  }
+  form{
+    background-color:#2C3E4C;
+    width: 700px;
+    
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  fieldset {
+    border: none;
+    padding: 20px 20px;
+   
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 3em;
+  }
+  input[type="button"] {
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+    height: 2em;
+    color:#fff;
+    font-size: 1.5rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  .recomend{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  
+  }
+  h1, p{
+    text-align: center;
+    margin: 20px auto;
+  }
+  h1{
+    font-family: Sans serif;
+    font-size:2em;
+    font-weight: solid;
+  }

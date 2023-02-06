@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+  <meta charset="utf-8">
+   <link rel="stylesheet" href="survey_form.css">
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title">Free Code Camp Survey Form</h1>
+  <p>Thank you for taking your time to help us improve the platform</p>
+  
+  <form id="survey-form">
+      <fieldset>
+    <label for="name" id="name-label">Enter Your Name: <input id="name" type="text" placeholder="your name" required /></label>
+
+    <label for="email" id="email-labe"> Email <input id="email" required  placeholder="your email"/></label>
+    <label for="number" id="number-label">Age(optional)<input placeholder="your age " id="age" type="number" min="5" max="30"/></label>
+    <label id="dropdown">What best describes you?
+  <Select id="dropdown">
+    <option>Select current role</option>
+    <option>Him/he<option>
+      <option>Her/she<option>
+        <option>none<option>
+  </select>
+  </label>
+  </fieldset>
+  <fieldset>
+    <label>Would you recomend freeCodeCamp to a friend?</label>
+<label><input name="button" type="radio" class="recomend">Definitely</label>
+
+<label><input name="button" type="radio" class="recomend">Not sure</label>
+
+<label>What is your favourite feature of freeCodeCamp?
+  <select id="features">
+    <option>select an option</option>
+    <option>Front-end projects</option>
+    <option>Back-end projects</option>
+    <option>Data visualisation</option>
+    <option>open source community</option>
+    <option>videos</option>
+    </select>
+</label>
+</fieldset>
+<fieldset>
+  <label>What would you like to see improved?</label>
+<label><input name="checkbox" type="checkbox" value="" class="recomend">Front-end projects</label>
+  <label><input name="checkbox" type="checkbox" value="" class="recomend">Back-end projects<l/label>
+  <label><input name="checkbox" type="checkbox" value="" class="recomend">Data visualisation</label>
+    <label><input name="checkbox" type="checkbox" value="" class="recomend"> open source community</label>
+<label><input name="checkbox" type="checkbox" value="" class="recomend"> Videos</label>
+<label><input name="checkbox" type="checkbox" value="" class="recomend"> city meetups</label>
+
+
+    <label>Any comment or suggestions?</label>
+
+  <textarea placeholder="Enter Your Comment here"></textarea>
+  </fieldset>
+  <input type="button" value="submit" id="submit">
+  
+  </form>
+  
+</body>
+</html>
